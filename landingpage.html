@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>THE MOG - Freelance Services</title>
+  <link rel="stylesheet" href="landingpage.css">
+ 
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="logo">THE MOG</div>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#features">Services</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+      </ul>
+      <button class="get-started">Get Started</button>
+    </nav>
+  </header>
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h1>FREELANCE <span>IS FLEXIBLE AND</span> OFFERS INDEPENDENCE</h1>
+      <p>Make the world a better place with CONNECTIONS. We have the best Editors and Graphic Designers for you.</p>
+      <div class="cta-buttons">
+        <button class="cta get-started-btn">Get Started</button>
+        <button class="cta learn-more-btn">Learn More</button>
+      </div>
+    </div>
+  </section>
+  <section class="stats">
+    <div class="stat">
+      <h2>50K</h2>
+      <p>Happy Connections</p>
+    </div>
+    <div class="stat">
+      <h2>80K</h2>
+      <p>Total Transactions</p>
+    </div>
+    <div class="stat">
+      <h2>10K</h2>
+      <p>Years Experience</p>
+    </div>
+  </section>
+  <section class="features" id="features">
+    <h2>TURN YOUR WORK INTO MOVIE MAGIC.</h2>
+    <div class="feature">
+      <h3>Videography & Video Editors</h3>
+    </div>
+    <div class="feature">
+      <h3>Photography & Photo editors</h3>
+    </div>
+    <div class="feature">
+      <h3>Graphic Designers</h3>
+    </div>
+  </section>
+  <script>
+    // JavaScript for onclick effect
+
+// Get the "Get Started" button and add onclick effect
+const getStartedButtons = document.querySelectorAll('.get-started-btn');
+
+getStartedButtons.forEach(button => {
+  button.addEventListener('click', function() {
+    alert('Get Started button clicked!'); // Example onclick effect
+    // You can add more complex actions here
+  });
+});
+
+  </script>
+</body>
+
+</html>
